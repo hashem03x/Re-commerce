@@ -1,0 +1,9 @@
+.carousel-inner img {
+  height: 380px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}

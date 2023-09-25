@@ -1,0 +1,20 @@
+* {
+  transition: 0.3s;
+}
+.card {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.card-img-top {
+  height: 250px;
+}
+.card:hover .card-img-top,
+.card:hover .price {
+  transform: translateY(-10px);
+}
+
+.card-text {
+  max-height: 120px;
+  overflow-y: scroll;
+}

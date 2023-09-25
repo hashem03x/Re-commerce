@@ -1,0 +1,13 @@
+.image {
+  width: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .image {
+    width: 350px;
+  }
+}
+.image img {
+  max-width: 100%;
+}
